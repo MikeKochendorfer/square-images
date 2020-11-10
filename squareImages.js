@@ -40,7 +40,7 @@ function squareImage(image) {
                         r: 255, 
                         g: 255, 
                         b: 255, 
-                        alpha: 0.0 
+                        alpha: 0.0 //Set to 1.0 for white background. Set to 0.0 for transparent background.
                     }
                 })
                 .toFile(`./processed-images/${image}`);
